@@ -1,20 +1,22 @@
-nav{
-    color: white;
+nav {
+  color: white;
 }
-header{
-    float: inline-start;
-    align-content: center;
-    
+header {
+  float: inline-start;
+  align-content: center;
 }
 /* texto del portafolio */
-.texto{
-    text-align: center;
-
+.texto {
+  text-align: center;
 }
-footer{
-    margin-top: 2px;
-    margin-right: 2px;
-    flex-direction: row;
-    background-color: black;
-    text-decoration: white;
+footer {
+  margin-top: 2px;
+  margin-right: 2px;
+  flex-direction: row;
+  background-color: black;
+  text-decoration: white;
+}
+
+#correo {
+  color: #fff;
 }
