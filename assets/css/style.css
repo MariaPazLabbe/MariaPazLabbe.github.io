@@ -19,8 +19,9 @@ header {
 footer {
   text-align: center;
 }
-.flexbox{
-  justify-content: center;
+#card{
+padding-left: 50px;
+
 }
 /* ------------------------------*/
 .contact{
