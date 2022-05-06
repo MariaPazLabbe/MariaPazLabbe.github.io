@@ -32,26 +32,17 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#inicio">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#about">Introducción</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -60,7 +51,7 @@
     </div>
   </div>
 </nav>
-  <header> <img src="assets/img/Logo.png" class="rounded mx-auto d-block" alt="Logo" width="30%">
+  <header id="inicio"> <img src="assets/img/Logo.png" class="rounded mx-auto d-block" alt="Logo" width="30%">
     </header>
     <section>
     <!-- carrusel -->
@@ -106,7 +97,7 @@
                           laborum.</p>
                       </div>
                       <!-- Progress Box -->
-                      <div class="progress-box">
+                      <div id="proyectos" class="progress-box">
                         <h5>PHP <span class="color-heading pull-right">87%</span></h5>
                         <div class="progress">
                           <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
@@ -190,6 +181,10 @@
       </div>
     </div></section>
     <!-- Formulario -->
+    <div id="contacto" class="texto mx-5">
+    <h2>Contacto</h2>
+    <p>Cuentame que piensas de mis trabajos</p>
+    </div>
     <form class="mx-5">
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -206,10 +201,11 @@
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <img src="assets/img/Logo.png" class="form-label mx-auto d-block" alt="Logo" width="10%">
 <!-- Pie de pagina -->
-  <footer class="row row-cols-1 row-cols-md-3 g-4 mt-5"> 
+  <footer class="row row-cols-0 row-cols-md-3 g-4 mt-5"> 
     <div>
-      <p class="text2"> contacto@criaderodepirque.cl
+      <p> pacilabbe@gmail.com
         </p>
           </div>
     <div><p class="text2">
