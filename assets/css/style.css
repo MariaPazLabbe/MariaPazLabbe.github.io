@@ -1,3 +1,6 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
 nav {
   color: white;
 }
@@ -12,10 +15,12 @@ header {
 .contact{
 	padding-top: 5rem;
 }
-footer{
-    text-align: center;
-    
+/* Footer */
+footer {
+  text-align: center;
 }
+
+/* ------------------------------*/
 .contact{
     margin-bottom:  10%;
     padding-bottom: 5px;
