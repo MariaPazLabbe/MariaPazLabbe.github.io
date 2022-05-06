@@ -12,9 +12,8 @@ header{
 
 }
 footer{
-    margin-top: 2px;
-    margin-right: 2px;
-    flex-direction: row;
-    background-color: black;
+align-items: baseline;
+justify-items: center;
     text-decoration: white;
+    background-color: black;
 }
